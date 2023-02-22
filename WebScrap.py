@@ -59,8 +59,8 @@ for anchor in link:
                     print("linked Paragraph :  ", p.text)
                     paragraph.append(p.text.strip())
                 print('----Full paragraph is here :', paragraph)
- 
-            #     # date is not working properly
+
+                
                 link_date=link_soup.find_all('span',{'class':'date'})
                 # if link_date:
                 #     if "Publish" or "Update" in link_date:
